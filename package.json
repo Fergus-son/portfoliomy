@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/Fergus-son/IT-INCUBATOR/tree/master/CSS_HTML/portfoliomy",
+  "homepage": "https://github.com/Fergus-son/portfoliomy",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
