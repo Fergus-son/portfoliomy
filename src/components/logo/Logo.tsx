@@ -1,9 +1,10 @@
+// import React from "react";
 import { Icon } from "../icon/Icon";
 
 export const Logo = () => {
     return (
-        <a>
-            <Icon iconId={'wave'} />
+        <a href="">
+            <Icon iconId={'facebook'} />
         </a>
     );
 };
