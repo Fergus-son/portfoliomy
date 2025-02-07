@@ -3,8 +3,8 @@ import { Icon } from "../icon/Icon";
 
 export const Logo = () => {
     return (
-        <a href="">
-            <Icon iconId={'react'} />
+        <a>
+            <Icon iconId="lkdin" height="60" width="60"/>
         </a>
     );
 };
