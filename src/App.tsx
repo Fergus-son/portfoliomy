@@ -1,7 +1,7 @@
 import './App.css'
 import { Header } from './layout/header/Header';
 import { Contact } from './layout/sections/contacts/Contact';
-import { Footer } from './layout/sections/footer/Footer';
+import { Footer } from './layout/footer/Footer';
 import { Main } from './layout/sections/main/Main';
 import { Skills } from './layout/sections/skills/Skills';
 import { Slogan } from './layout/sections/slogan/Slogan';

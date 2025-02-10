@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import photo from '../../../assets/img/Avatar.webp'
+import photo from '../../../assets/img/MainAvatar-_1_.webp'
 import { FlexWrapper } from '../../../components/FlexWrapper';
 
 export const Main = () => {
@@ -12,7 +12,7 @@ export const Main = () => {
                     <MainTitle>A Web Developer</MainTitle>
                 </div>
 
-                <Photo src={photo} alt="" />
+                {/* <Photo src={photo} alt="" /> */}
             </FlexWrapper>
         </StyledMain>
     );
@@ -20,15 +20,15 @@ export const Main = () => {
 
 const StyledMain = styled.div `
     min-height: 100vh;
-    background-color: #262525;
-    color: white;
+    background-color: #444245;
+    color: black;
 `
 
-const Photo = styled.img`
-    width: 950px;
-    height: 936px;
-    object-fit: cover;
-`
+// const Photo = styled.img`
+//     width: 1920px;
+//     height: 993px;
+//     object-fit: cover;
+// `
 
 const MainTitle = styled.h1 `
     
