@@ -24,4 +24,8 @@ const StyledMenu = styled.nav `
         display: flex;
         gap: 30px;
     }
+
+    a{
+        color: black;
+    }
 `

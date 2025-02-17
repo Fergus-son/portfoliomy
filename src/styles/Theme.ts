@@ -2,7 +2,7 @@
 export const Theme = {
     colors: {
         primaryBg: '#e7e7e7',
-        secondaryBg: '#444245',
+        secondaryBg: '#686668',
         accent: '#black',
 
         // шрифт
@@ -10,3 +10,5 @@ export const Theme = {
         fontEven: 'white'
     }
 }
+
+// color:rgb(68, 66, 68)

@@ -12,8 +12,8 @@ export const Works = () => {
     return (
         <StyledWorks>
             <SectionTitle>My works</SectionTitle>
-            <Menu menuItems={worksItems}/>
-            <FlexWrapper justify="space-around">
+            <Menu menuItems={worksItems} />
+            <FlexWrapper justify="space-around" align="center" >
                 <Work title={"Social Network"} src={socialImg} text="SomeInformationSomeInformationSomeInformationSomeInformationSomeInformation
                 SomeInformationSomeInformation
                 SomeInformationSomeInformationSomeInformationSomeInformation"/>
@@ -27,5 +27,6 @@ export const Works = () => {
 
 const StyledWorks = styled.section`
     min-height: 100vh;
-    background-color: #8282e4;
+    /* background-color: #8282e4; */
+    /* color: white; */
 `

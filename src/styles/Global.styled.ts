@@ -18,6 +18,7 @@ body {
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  line-height: 1.2;
 }
 
 a {
@@ -34,13 +35,13 @@ button {
 }
 
 section:nth-of-type(odd) {
-    background-color: ${Theme.colors.primaryBg};
-    color: ${Theme.colors.fontOdd}
+    background-color: ${Theme.colors.secondaryBg};
+    color: ${Theme.colors.fontEven}
 }
 
 section:nth-of-type(even) {
-    background-color: ${Theme.colors.secondaryBg};
-    color: ${Theme.colors.fontEven}
+    background-color: ${Theme.colors.primaryBg};
+    color: ${Theme.colors.fontOdd}
 }
 
 `
