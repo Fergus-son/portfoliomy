@@ -11,7 +11,7 @@ const worksItems = ['ALL', 'LANDING PAGE', 'REACT', 'SPA',]
 export const Works = () => {
     return (
         <StyledWorks>
-            <SectionTitle>My works</SectionTitle>
+            <SectionTitle>LATEST WORKS</SectionTitle>
             <Menu menuItems={worksItems} />
             <FlexWrapper justify="space-around" align="center" >
                 <Work title={"Social Network"} src={socialImg} text="SomeInformationSomeInformationSomeInformationSomeInformationSomeInformation

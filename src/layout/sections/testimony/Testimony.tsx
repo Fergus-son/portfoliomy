@@ -8,7 +8,7 @@ export const Testimony = () => {
     return (
         <StyledTestimony>
             <FlexWrapper direction="column" align="center">
-                <SectionTitle>Testimony</SectionTitle>
+                <SectionTitle>TESTIMONIALS</SectionTitle>
                 <Icon iconId="react" />
                 <Slider />
             </FlexWrapper>

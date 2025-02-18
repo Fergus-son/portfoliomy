@@ -8,11 +8,12 @@ export const Main = () => {
         <StyledMain>
             <Container>
                 <FlexWrapper align={'left'} justify={'flex-start'}>
-                    <MainText>
+                    <div>
                         <SmallText>HI EVERYONE</SmallText>
                         <Name>Sharapov Nikolay</Name>
                         <MainTitle>A Web Developer</MainTitle>
-                    </MainText>
+                        <MainText></MainText>
+                    </div>
                 </FlexWrapper>
             </Container>
         </StyledMain>
