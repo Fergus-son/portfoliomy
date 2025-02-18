@@ -52,6 +52,7 @@ const SmallText = styled.p`
     font-family: 'Inconsolata';
     text-align: center;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+    padding: 10px 0;
     /* background: linear-gradient(10deg, #121212, #e9e7e5); */
     /* border: 1px solid black; */
     /* background-color: white; */

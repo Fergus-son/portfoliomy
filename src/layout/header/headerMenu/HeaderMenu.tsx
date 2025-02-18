@@ -39,8 +39,11 @@ const Link = styled.a `
     font-family: 'Manrope';
     font-weight: 400;
     font-size: 30px;
-    text-align: center;
-    color: #8d878794;
+    color: black;
+    display: inline-block;
+    position: relative;
+
+
 `
 
 const Mask = styled.span `
@@ -48,19 +51,22 @@ const Mask = styled.span `
     top: 0;
     left: 0;
     display: inline-block;
-    color: black;
+    color: rgba(0, 0, 0, 0.189);
     transition: transform 0.5s ease-in-out;
+    z-index: -1;
 
 
 
-    & + & {
-        /* top: 50%; */
+
+
+    /* & + & {
+        top: 50%;
         span{
             display: inline-block;
-            /* color: black; */
-            /* transform: translateY(-50%); */
+            color: black;
+            transform: translateY(-50%);
         }
-    }
+    } */
     
     
     /* text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
@@ -71,10 +77,11 @@ const Mask = styled.span `
 `
 const ListItem = styled.li `
     position: relative;
-    
+
     &:hover{
         ${Mask} {
-            transform: translate(-2px, -4px);
+            transform: translate(2px, 2px);
         }
+
     }
 `

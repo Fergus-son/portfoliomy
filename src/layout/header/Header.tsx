@@ -20,16 +20,16 @@ export const Header = () => {
 };
 
 const StyledHeader = styled.header`
-/* background-color: rgba(208, 205, 206, 0.5); */
-/* background-color: rgba(243, 241, 242, 0.458); */
-/* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); */
 border-radius: 10px;
-/* padding: 20px 0; */
 position: fixed;
 top: 0;
 right: 0;
 left: 0;
 z-index: 9999;
+/* background-color: rgba(208, 205, 206, 0.5); */
+/* background-color: rgba(243, 241, 242, 0.458); */
+/* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); */
+/* padding: 20px 0; */
 `
 
 
