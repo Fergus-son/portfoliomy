@@ -10,13 +10,17 @@ export const Skills = () => {
             <Container>
                 <SectionTitle>SKILLS</SectionTitle>
                 <FlexWrapper wrap='wrap' justify='center'>
-                    <Skill iconId={'react'} title='react' description='SomeInformationSomeInformation
+                    <Skill iconId={'react'} title='React' description='SomeInformationSomeInformation
                 SomeInformationSomeInformationSomeInformation'/>
-                    <Skill iconId={'tps'} title='tps' description='SomeInformationSomeInformation
+                    <Skill iconId={'tps'} title='TS' description='SomeInformationSomeInformation
                 SomeInformationSomeInformationSomeInformation'/>
-                    <Skill iconId={'css'} title='css' description='SomeInformationSomeInformation
+                    <Skill iconId={'css'} title='CSS3' description='SomeInformationSomeInformation
                 SomeInformationSomeInformationSomeInformation'/>
-                    <Skill iconId={'html'} title='html' description='SomeInformationSomeInformation
+                    <Skill iconId={'html'} title='HTML5' description='SomeInformationSomeInformation
+                SomeInformationSomeInformationSomeInformation'/>
+                    <Skill iconId={''} title='Redux-Toolkit' description='SomeInformationSomeInformation
+                SomeInformationSomeInformationSomeInformation'/>
+                    <Skill iconId={''} title='Formik' description='SomeInformationSomeInformation
                 SomeInformationSomeInformationSomeInformation'/>
                 </FlexWrapper>
             </Container>
