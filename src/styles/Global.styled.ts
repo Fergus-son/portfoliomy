@@ -34,6 +34,14 @@ button {
     border: none;
 }
 
+section {
+    padding: 100px 0;
+}
+
+/* h2 {
+    padding: 0px 1258px 40px 320px;
+} */
+
 section:nth-of-type(odd) {
     background-color: ${Theme.colors.secondaryBg};
     color: ${Theme.colors.fontEven}
