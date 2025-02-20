@@ -23,6 +23,7 @@ body {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 ul {
@@ -32,15 +33,36 @@ ul {
 button {
     background-color: unset;
     border: none;
+    cursor: pointer;
+    color: white;
 }
 
 section {
     padding: 100px 0;
+    max-width: 100%;
 }
 
-/* h2 {
-    padding: 0px 1258px 40px 320px;
-} */
+h3 {
+    font-family: 'Manrope';
+    font-size: 22px;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 17px;
+    /* line-height: 40px; */
+}
+
+h2 {
+    font-family: 'Inconsolata';
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+
+    /* text-shadow: 2px 2px 2px rgba(0, 0, 0, 1); */
+}
 
 section:nth-of-type(odd) {
     background-color: ${Theme.colors.secondaryBg};
@@ -52,4 +74,19 @@ section:nth-of-type(even) {
     color: ${Theme.colors.fontOdd}
 }
 
+@media ${Theme.media.mobile} {
+    section{
+        /* padding: 100px 0; */
+    }
+}
+
+@media ${Theme.media.tablet } {
+    
+}
+
+@media ${Theme.media.desktop} {
+    
+}
+
 `
+

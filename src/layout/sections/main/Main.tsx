@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { FlexWrapper } from '../../../components/FlexWrapper';
 import photo from '../../../assets/img/MainAvatar1.jpg';
 import { Container } from '../../../components/Container';
+// import { Theme } from '../../../styles/Theme';
 
 export const Main = () => {
     return (
@@ -28,7 +29,6 @@ const StyledMain = styled.div`
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center ;
-    
 `
 const MainText = styled.div`
 

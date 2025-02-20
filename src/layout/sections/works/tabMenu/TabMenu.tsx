@@ -1,43 +1,43 @@
 import styled from "styled-components";
 
-export const HeaderMenu = (props: { menuItems: Array<string> }) => {
+
+export const TabMenu = (props: { menuItems: Array<string> }) => {
     return (
-        <StyledHeaderMenu>
+        <StyledTabMenu>
             <ul>
 
-                {props.menuItems.map((mainItems, index) => {
+                {props.menuItems.map((worksItems, index) => {
                     return (
                         <ListItem key={index}>
                             <Link href="">
-                                {mainItems}
+                                {worksItems}
                                 <Mask>
-                                    <span>{mainItems}</span>
+                                    <span>{worksItems}</span>
                                 </Mask>
                             </Link>
                         </ListItem>
                     )
                 })}
             </ul>
-        </StyledHeaderMenu>
-
+        </StyledTabMenu>
     );
 };
 
 
-const StyledHeaderMenu = styled.nav`
+const StyledTabMenu = styled.div`
     ul{
         display: flex;
+        justify-content: center;
         gap: 30px;
-        margin: 15px;
-        text-align: center;
+        margin: 15px;   
     }
 
+
 `
-
-
 const Link = styled.a`
-    font-size: 30px;
+    font-size: 22px;
 `
+
 
 const Mask = styled.span`
     position: absolute;
@@ -46,8 +46,8 @@ const Mask = styled.span`
     color: rgba(0, 0, 0, 0.412);
     transition: transform 0.5s ease-in-out;
     z-index: -1;
-    
 `
+
 const ListItem = styled.li`
     position: relative;
 

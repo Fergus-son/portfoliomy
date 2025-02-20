@@ -10,7 +10,7 @@ export const Contact = () => {
                 <Field placeholder="name" />
                 <Field placeholder="subject" />
                 <Field placeholder="message" as={'textarea'}/>
-                <Button type="submit">Send message</Button>
+                <Button color="black" type="submit">Send message</Button>
             </StyledForm>
         </StyledContact>
     );

@@ -7,8 +7,12 @@ export const Theme = {
 
         // шрифт
         fontOdd: 'black',
-        fontEven: 'white'
+        fontEven: 'white',
+
+    },
+    media: {
+        mobile: '(min-width: 420px )',
+        tablet: '(min-width: 768px)',
+        desktop: '(min-width: 1024px)'
     }
 }
-
-// color:rgb(68, 66, 68)
