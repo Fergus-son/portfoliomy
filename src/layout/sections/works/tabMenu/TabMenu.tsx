@@ -25,6 +25,10 @@ export const TabMenu = (props: { menuItems: Array<string> }) => {
 
 
 const StyledTabMenu = styled.div`
+        border: 2px solid black;
+        padding: 0px -10px 0px -10px;
+        margin: -30px 0px 70px;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
     ul{
         display: flex;
         justify-content: center;

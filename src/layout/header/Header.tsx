@@ -11,7 +11,7 @@ export const Header = () => {
     return (
         <StyledHeader>
             <Container>
-                <FlexWrapper justify="space-around" align="center">
+                <FlexWrapper justify="space-around" align="center" >
                     {/* <Logo />     */}
                     <HeaderMenu menuItems={mainItems} />
                     {/* <MobileMenu menuItems={mainItems}/> */}
@@ -28,6 +28,7 @@ const StyledHeader = styled.header`
     left: 0;
     z-index: 9999;
     border-radius: 10px;
+
     /* background-color: rgba(208, 205, 206, 0.5); */
     /* background-color: rgba(243, 241, 242, 0.458); */
     /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); */

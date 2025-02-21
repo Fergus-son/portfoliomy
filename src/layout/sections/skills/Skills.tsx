@@ -5,12 +5,6 @@ import { Container } from '../../../components/Container';
 import { Theme } from '../../../styles/Theme';
 import { Skill } from './skill/Skill';
 
-
-
-// import { Skill } from './skill/Skill';
-
-
-
 export const Skills = () => {
     return (
         <StyledSkills>

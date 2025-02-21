@@ -25,6 +25,13 @@ export const HeaderMenu = (props: { menuItems: Array<string> }) => {
 
 
 const StyledHeaderMenu = styled.nav`
+    border: 1px solid black;
+    /* border-radius: 30px; */
+    box-shadow: 2px 2px 2px  rgba(0, 0, 0, 0.696);
+    background-color: #ffffff59;
+    /* padding: 0px -10px 0px -10px; */
+    /* margin: -30px 0px 70px; */
+
     ul{
         display: flex;
         gap: 30px;
@@ -43,7 +50,7 @@ const Mask = styled.span`
     position: absolute;
     top: 0;
     left: 0;
-    color: rgba(0, 0, 0, 0.412);
+    color: rgba(0, 0, 0, 0.601);
     transition: transform 0.5s ease-in-out;
     z-index: -1;
     
