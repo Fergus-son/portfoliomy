@@ -36,10 +36,10 @@ const StyledWork = styled.div`
 `
 
 const Image = styled.img`
-        width: 100%;
-        height: 260px;
-        object-fit: cover;    
-        border-radius: 20px;
+    width: 100%;
+    height: 260px;
+    object-fit: cover;    
+    border-radius: 20px;
 `
 const Title = styled.h3`
     font-family: 'Jost';

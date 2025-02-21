@@ -18,7 +18,7 @@ export const SectionLink = styled.a<TypesSectionLink>`
     display: inline-block;
 
     &:hover {
-        transform: translate(-1px, 1px); 
+        transform: translate(0px, 2px); 
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
     }
 `
