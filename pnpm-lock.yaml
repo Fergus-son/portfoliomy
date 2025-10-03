@@ -14,6 +14,9 @@ importers:
       gh-pages:
         specifier: ^6.3.0
         version: 6.3.0
+      nvm:
+        specifier: ^0.0.4
+        version: 0.0.4
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -994,6 +997,11 @@ packages:
 
   node-releases@2.0.19:
     resolution: {integrity: sha512-xxOWJsBKtzAq7DY0J+DTzuz58K8e7sJbdgwkbMWQe8UYB6ekmsQ45q0M/tJDsGaZmbC+l7n57UV8Hl5tHxO9uw==}
+
+  nvm@0.0.4:
+    resolution: {integrity: sha512-jvmyELykYcdyd0VCGY0E8Aqe5MngEasVvlPvrcJHbwBMUbVqa72mPdQuPzyTcykEtEx7jDrMY0QA5MoV+8EhgA==}
+    deprecated: This is NOT the correct nvm. Visit https://nvm.sh and use the curl command to install it.
+    hasBin: true
 
   optionator@0.9.4:
     resolution: {integrity: sha512-6IpQ7mKUxRcZNLIObR0hz7lxsapSSIYNZJwXPGeF0mTVqGKFIXj1DQcMoT22S3ROcLyY/rz0PWaWZ9ayWmad9g==}
@@ -2169,6 +2177,8 @@ snapshots:
   natural-compare@1.4.0: {}
 
   node-releases@2.0.19: {}
+
+  nvm@0.0.4: {}
 
   optionator@0.9.4:
     dependencies:
